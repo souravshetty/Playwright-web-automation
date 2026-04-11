@@ -61,5 +61,5 @@ test("Child window handler", async ({ browser }) => {
 	await page.locator("#username").fill(domain);
 	// console.log(await page.locator("#username").textContent());
 	console.log(await page.locator("#username").inputValue());
-	await page.pause();
+	
 });
